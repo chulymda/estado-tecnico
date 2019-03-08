@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Aplicacion
+</name>
+</assembly>
+<members>
+<member name="T:Aplicacion.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Aplicacion.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Aplicacion.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Aplicacion.TablaFueraDeServicio">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Aplicacion.TablaFueraDeServicio.maquinasFueraDeServicioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Aplicacion.TablaFueraDeServicio.maquinasFueraDeServicioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Aplicacion.TablaFueraDeServicio.maquinasFueraDeServicioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Aplicacion.TablaFueraDeServicioTableAdapters.maquinasFueraDeServicioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Aplicacion.TablaFueraDeServicioTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Aplicacion.TablaFueraDeServicioTableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplicacion.TablaFueraDeServicio,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Aplicacion.TablaFueraDeServicioTableAdapters.TableAdapterManager.UpdateInsertedRows(Aplicacion.TablaFueraDeServicio,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Aplicacion.TablaFueraDeServicioTableAdapters.TableAdapterManager.UpdateDeletedRows(Aplicacion.TablaFueraDeServicio,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Aplicacion.TablaFueraDeServicioTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Aplicacion.TablaFueraDeServicioTableAdapters.TableAdapterManager.UpdateAll(Aplicacion.TablaFueraDeServicio)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Aplicacion.TablaFueraDeServicioTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Aplicacion.TablaFueraDeServicioTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Aplicacion.Vista_actualFDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Aplicacion.Vista_actualFDS.View_ultimoEstadoFueraDeServicioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Aplicacion.Vista_actualFDS.View_ultimoEstadoFueraDeServicioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Aplicacion.Vista_actualFDS.View_ultimoEstadoFueraDeServicioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Aplicacion.Vista_actualFDSTableAdapters.View_ultimoEstadoFueraDeServicioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Aplicacion.Vista_actualFDSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Aplicacion.Vista_actualFDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplicacion.Vista_actualFDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Aplicacion.Vista_actualFDSTableAdapters.TableAdapterManager.UpdateInsertedRows(Aplicacion.Vista_actualFDS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Aplicacion.Vista_actualFDSTableAdapters.TableAdapterManager.UpdateDeletedRows(Aplicacion.Vista_actualFDS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Aplicacion.Vista_actualFDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Aplicacion.Vista_actualFDSTableAdapters.TableAdapterManager.UpdateAll(Aplicacion.Vista_actualFDS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Aplicacion.Vista_actualFDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Aplicacion.Vista_actualFDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Aplicacion.vvista_FueraDeServicio">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Aplicacion.vvista_FueraDeServicio.View_ultimoEstadoFueraDeServicioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Aplicacion.vvista_FueraDeServicio.View_ultimoEstadoFueraDeServicioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Aplicacion.vvista_FueraDeServicio.View_ultimoEstadoFueraDeServicioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Aplicacion.vvista_FueraDeServicioTableAdapters.View_ultimoEstadoFueraDeServicioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Aplicacion.vvista_FueraDeServicioTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Aplicacion.vvista_FueraDeServicioTableAdapters.TableAdapterManager.UpdateUpdatedRows(Aplicacion.vvista_FueraDeServicio,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Aplicacion.vvista_FueraDeServicioTableAdapters.TableAdapterManager.UpdateInsertedRows(Aplicacion.vvista_FueraDeServicio,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Aplicacion.vvista_FueraDeServicioTableAdapters.TableAdapterManager.UpdateDeletedRows(Aplicacion.vvista_FueraDeServicio,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Aplicacion.vvista_FueraDeServicioTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Aplicacion.vvista_FueraDeServicioTableAdapters.TableAdapterManager.UpdateAll(Aplicacion.vvista_FueraDeServicio)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Aplicacion.vvista_FueraDeServicioTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Aplicacion.vvista_FueraDeServicioTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

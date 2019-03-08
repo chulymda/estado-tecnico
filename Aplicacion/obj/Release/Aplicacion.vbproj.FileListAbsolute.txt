@@ -1,0 +1,14 @@
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\bin\Release\Aplicacion.exe.config
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\bin\Release\Aplicacion.exe
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\bin\Release\Aplicacion.pdb
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\bin\Release\Aplicacion.xml
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.Eliminar_registro.resources
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.Formulario_inicial.resources
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.FRMFueraDeServicio.resources
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.Habilitar_maquina.resources
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.Resources.resources
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.vbproj.GenerateResource.cache
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.vbproj.CoreCompileInputs.cache
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.exe
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.xml
+C:\Users\julianç\source\repos\Aplicacion\Aplicacion\obj\Release\Aplicacion.pdb
